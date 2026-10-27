@@ -5,7 +5,7 @@
 
 ---
 
-## 2026-9-4
+## 2026-9-22
 
 ### 基本資訊
 
@@ -13,15 +13,16 @@
 - MCU: STM32H7B0ZBT6
 - STM32 HEX: 614B_STM32H7B0ZBT6_EWOD_20260904.hex
 - FPGA POF: FPGA_EWOD_V971F.pof
+- Version: V0.1.0 
 - Version Type: release
 
 ### 新增功能
 
-- 第一版本。
+- NA
 
 ### 修改內容
 
-- NA
+- Grenade Separate Function Parameterization.
 
 ### 修正問題
 

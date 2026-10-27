@@ -4,24 +4,25 @@
 
 ---
 
-## 2026-10-1
+## 2026-10-12
 
 ### 基本資訊
 
 - Hardware: YXT000614B / YXT000615B
 - MCU: STM32H7B0ZBT6
-- STM32 HEX: 614B_STM32H7B0ZBT6_EWOD_20261007.hex
-- FPGA POF: FPGA_EWOD_V971F.pof
-- Version: V0.1.1
+- STM32 HEX: 614B_STM32H7B0ZBT6_EWOD_20261012.hex
+- FPGA POF: FPGA_EWOD_V9723.pof
+- Version: V0.2.0
 - Version Type: release
 
 ### 新增功能
 
-- Grenade 液珠分離功能函數修改。
+- FPGA 整合 array test timing。
+- FPGA 增加面板 Hybrid mode 寫入 timing。
 
 ### 修改內容
 
-- Grenade 中繼母體多餘液體分離移動時間參數, 由固定改為依 UI 指定時間參數。
+- 增加 ArrayTest1 / ArrayTest2 / ArrayTest3 / ArrayTest4 功能函數。
 
 ### 修正問題
 

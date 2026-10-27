@@ -10,19 +10,18 @@
 
 - Hardware: YXT000614B / YXT000615B
 - MCU: STM32H7B0ZBT6
-- STM32 HEX: 614B_STM32H7B0ZBT6_EWOD_20260904.hex
+- STM32 HEX: 614B_STM32H7B0ZBT6_EWOD_20261007.hex
 - FPGA POF: FPGA_EWOD_V971F.pof
-- Version: test-20261001-01 
-- Version Type: Test
+- Version: V0.1.1
+- Version Type: release
 
 ### 新增功能
 
-- 增加 I2C1 控制 YXT000634A 板功能。
-- 增加 UI 指令控制面板上板 8 Zone 開關功能。
+- Grenade 液珠分離功能函數修改。
 
 ### 修改內容
 
-- NA
+- Grenade 中繼母體多餘液體分離移動時間參數, 由固定改為依 UI 指定時間參數。
 
 ### 修正問題
 
@@ -37,11 +36,10 @@
 
 ### 已知問題
 
-- 其他問題：無
+- 其他問題：NA
 
 ### 備註
 
-TP 8-Zone 功能測試使用，非正式 Release Firmware。
-提供CTC工廠測試使用。
+NA
 
 ---
